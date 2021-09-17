@@ -49,6 +49,7 @@
   text-align: center;
   text-transform: uppercase;
   font-size: 1.5rem;
+  font-weight: 100;
 }
 
  /* information */
@@ -96,7 +97,7 @@ li{
 .skill{
   margin: 0.5rem;
   display: block;
-  
+
 }
 .skill_name{
   font-size: 1.3rem;
@@ -107,35 +108,26 @@ li{
   justify-content: center;
   align-items: center;
 }
+
 .code_img{
   margin: 1rem;
   width: 50%;
   border-radius: 1.2rem;
   border: 0.4rem solid wheat;
 }
-.contact_card{
+
+.contact{
+  display: inline-block;
+}
+.contact_list .contact a{
+  margin: auto;
   display: flex;
-  width: 50%;
-  margin: 1rem auto;
-  text-align: left;
-  padding-bottom: 1rem;
-}
-.contact_block{
-  margin-left: 1rem;
-}
-.contact-label{
-  text-transform: uppercase;
-  font-weight: lighter;
-  color: peru ;
-}
-.contact_block{
-  text-align: left;
-}
-.contact_info{
+  list-style: none;
+  align-items: center;
   font-size: 1.2rem;
-}
-.Address{
-  padding-left: 4rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-bottom: 2rem;
 }
 
 footer{
