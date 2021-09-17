@@ -1,0 +1,162 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+
+  body{
+  margin: 0 auto;
+  max-width: 940px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  height: 100%;
+  color: #333;
+  line-height: 1.6;
+  border: #333 solid;
+  border-radius: 2rem;
+}
+  header{
+    margin: auto;
+    height: 20rem;
+  }
+
+ /* figure */
+.figure {
+  display: flex;
+  align-items: center;
+}
+.photo {
+  align-self: left;
+  display: flex;
+  width: 100;
+  border-radius: 5rem;
+  border: 2px solid #fff;
+
+}
+.intro-container{
+  margin: 0 auto;
+  letter-spacing: rem;
+}
+.page-title{
+  text-align: center;
+  letter-spacing: 0.01rem;
+ font-size: 2rem;
+}
+
+.paragraph{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+ /* information */
+
+ .information{
+   padding-top: 1rem;
+   margin: 0 auto;
+  display: block;
+  flex: none;
+   background-color: #333;
+   color:wheat
+ }
+
+ .section_title{
+   color: wheat;
+   text-align: center;
+   background-color: #333 ;
+   font-size: 2rem;
+   align-items: center;
+   text-transform: uppercase;
+ }
+
+.section_text{
+  display: inline-block;
+  vertical-align: middle;
+  padding-top: 5%;
+  background-color: g;
+  color: wheat;
+  margin: 0 2rem;
+  font-size: 1.5rem;
+}
+
+li{
+  font-size: 1.3rem;
+}
+
+.little_info{
+  margin-top: 5rem;
+  text-align: center;
+  align-items: center;
+
+}
+
+
+.skill{
+  margin: 0.5rem;
+  display: block;
+  
+}
+.skill_name{
+  font-size: 1.3rem;
+}
+.skill_list{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+.code_img{
+  margin: 1rem;
+  width: 50%;
+  border-radius: 1.2rem;
+  border: 0.4rem solid wheat;
+}
+.contact_card{
+  display: flex;
+  width: 50%;
+  margin: 1rem auto;
+  text-align: left;
+  padding-bottom: 1rem;
+}
+.contact_block{
+  margin-left: 1rem;
+}
+.contact-label{
+  text-transform: uppercase;
+  font-weight: lighter;
+  color: peru ;
+}
+.contact_block{
+  text-align: left;
+}
+.contact_info{
+  font-size: 1.2rem;
+}
+.Address{
+  padding-left: 4rem;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    padding: 20px 60px 20px 60px;
+    color: white;
+}
+.footer__github {
+  position: relative;
+  padding-left: 40px;
+}
+
+.footer__year {
+  justify-self: center;
+  color: #333;
+  font-size: 1.5rem;
+}
+
+.footer__rsschool {
+  justify-self: end;
+  height: 32px;
+}
